@@ -59,12 +59,5 @@ Ambos listos para integrarse en servidores o entornos locales.
 Este proyecto genera certificados autofirmados.
 No es adecuado para producción donde se requiera confianza pública mediante una Autoridad Certificadora (CA).
 
-📈 Possible Improvements
-Soporte para certificados firmados por CA interna
-CLI con argumentos personalizados (CN, expiración, SAN dinámico)
-Exportación a formatos adicionales (DER, PFX)
-Integración con pipelines CI/CD
-Rotación automática de certificados
-
 👤 Author
    Bayron Cares. 
