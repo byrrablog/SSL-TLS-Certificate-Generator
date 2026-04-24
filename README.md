@@ -1,47 +1,46 @@
-🔐 generate_cert — Automated SSL/TLS Certificate Generator
+# 🔐 generate_cert — Automated SSL/TLS Certificate Generator
 
-generate_cert es una herramienta en Python orientada a automatizar la generación de certificados X.509 autofirmados junto con claves privadas RSA.
-Está pensada para entornos de desarrollo, laboratorios de ciberseguridad y testing, donde se requiere levantar rápidamente servicios seguros sin depender de una CA externa.
+**generate_cert** es una herramienta en Python orientada a automatizar la generación de certificados X.509 autofirmados junto con claves privadas RSA.  
+Está pensada para **entornos de desarrollo, laboratorios de ciberseguridad y testing**, donde se requiere levantar rápidamente servicios seguros sin depender de una CA externa.
 
-✨ Value Proposition
+---
+
+## ✨ Value Proposition
 
 Este proyecto demuestra:
 
-Automatización de tareas de seguridad comunes en entornos DevSecOps
-Implementación práctica de criptografía aplicada (PKI básica)
-Buenas prácticas en generación de certificados modernos (SAN obligatorio)
-Integración directa con herramientas reales del ecosistema
-🚀 Features
-🔑 RSA 2048-bit Key Generation
-Generación de claves seguras con exponente público 65537 (estándar de la industria)
-🔐 SHA-256 Certificate Signing
-Firma criptográfica robusta para garantizar integridad
-🌐 SAN Support (Subject Alternative Name)
-Incluye automáticamente:
-localhost
-127.0.0.1
-Compatible con navegadores modernos (Chrome, Edge, Firefox)
-📦 PEM Output (Industry Standard)
-Listo para usar en:
-Nginx / Apache
-Docker containers
-Herramientas SIEM como Wazuh
-Monitoreo con Zabbix
-📁 Dynamic Path Handling
-Guarda automáticamente los archivos en la ruta del proyecto
-🧱 Tech Stack
-Python 3.12+
-Cryptography (hazmat layer)
-Conceptos aplicados:
-X.509 Certificates
-Public Key Infrastructure (PKI)
-RSA Encryption
-Hashing (SHA-256)
-⚙️ Installation
-pip install cryptography
-▶️ Usage
-python generate_cert.py
-📂 Output
+- Automatización de tareas de seguridad en entornos DevSecOps  
+- Implementación práctica de criptografía aplicada (PKI básica)  
+- Buenas prácticas modernas (uso de SAN obligatorio)  
+- Integración con herramientas reales  
+
+---
+
+## 🚀 Features
+
+- 🔑 **RSA 2048-bit Key Generation**
+- 🔐 **SHA-256 Certificate Signing**
+- 🌐 **SAN Support (`localhost`, `127.0.0.1`)**
+- 📦 **PEM Output compatible con Nginx, Apache, Docker, Wazuh, Zabbix**
+- 📁 **Dynamic Path Handling**
+
+---
+
+## 🧱 Tech Stack
+
+- `Python 3.12+`
+- `cryptography`
+- X.509 / PKI / RSA / SHA-256
+
+---
+
+## ⚙️ Installation
+
+``bash
+pip install cryptography ``
+'''
+
+##📂 Output
 
 El script genera automáticamente:
 
