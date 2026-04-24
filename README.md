@@ -21,17 +21,16 @@
    ```bash
    git clone [https://github.com/TU_USUARIO/NOMBRE_DEL_REPO.git](https://github.com/TU_USUARIO/NOMBRE_DEL_REPO.git)
    cd NOMBRE_DEL_REPO
-Ejecutar el script:
+2. **Ejecutar el script:**
 Lanza el generador desde tu terminal:
-
-   Bash
+    ```Bash
   `python generate_cert.py`
 
 📂 Archivos Generados
 Al finalizar la ejecución, el script creará automáticamente en la misma carpeta:
 
-`sample_cert.pem: Tu certificado público listo para ser cargado en tus servicios.
-private_key.pem: La clave privada RSA vinculada al certificado.`
+`sample_cert.pem: Tu certificado público listo para ser cargado en tus servicios.`
+`private_key.pem: La clave privada RSA vinculada al certificado.`
 
 ⚠️ Advertencia de Seguridad
 Entornos de Desarrollo: Este script genera certificados autofirmados. No deben utilizarse en entornos de producción críticos donde se requiera la validación de una Entidad Certificadora (CA) pública.
