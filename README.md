@@ -54,7 +54,8 @@ Ambos listos para integrarse en servidores o entornos locales.
 🐳 Contenedores Docker con TLS
 📡 Simulación de infraestructura segura
 📚 Aprendizaje práctico de certificados digitales
-⚠️ Security Notice
+
+## ⚠️ Security Notice
 
 Este proyecto genera certificados autofirmados.
 No es adecuado para producción donde se requiera confianza pública mediante una Autoridad Certificadora (CA).
