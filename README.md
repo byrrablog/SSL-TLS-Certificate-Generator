@@ -48,12 +48,12 @@ El script genera automáticamente:
 
 Ambos listos para integrarse en servidores o entornos locales.
 
-🧪 Use Cases
-🔧 Configuración rápida de HTTPS en entornos locales
-🧑‍💻 Laboratorios de ciberseguridad / pentesting
-🐳 Contenedores Docker con TLS
-📡 Simulación de infraestructura segura
-📚 Aprendizaje práctico de certificados digitales
+- 🧪 Use Cases
+- 🔧 Configuración rápida de HTTPS en entornos locales
+- 🧑‍💻 Laboratorios de ciberseguridad / pentesting
+- 🐳 Contenedores Docker con TLS
+- 📡 Simulación de infraestructura segura
+- 📚 Aprendizaje práctico de certificados digitales
 
 ## ⚠️ Security Notice
 
