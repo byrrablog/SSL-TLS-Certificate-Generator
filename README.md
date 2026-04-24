@@ -38,14 +38,13 @@ Este proyecto demuestra:
 
 ``bash
 pip install cryptography ``
-'''
 
-##📂 Output
+## 📂 Output
 
 El script genera automáticamente:
 
-sample_cert.pem → Certificado público
-private_key.pem → Clave privada
+- `sample_cert.pem → Certificado público`
+- `private_key.pem → Clave privada`
 
 Ambos listos para integrarse en servidores o entornos locales.
 
